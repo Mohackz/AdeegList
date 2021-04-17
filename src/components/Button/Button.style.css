@@ -1,0 +1,19 @@
+.button {
+	all: unset;
+	background-color: rebeccapurple;
+	color: white;
+	outline: 0;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-size: 1em;
+	border: 2px solid white;
+	letter-spacing: 1px;
+	min-width: 40px;
+	text-align: center;
+}
+
+.button:hover {
+	border-color: rebeccapurple;
+	background-color: white;
+	color: rebeccapurple;
+}

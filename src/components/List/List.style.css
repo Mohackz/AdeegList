@@ -1,0 +1,8 @@
+#app-list {
+	padding: 10px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	height: 62vh;
+	overflow-y: auto;
+}

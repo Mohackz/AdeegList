@@ -1,0 +1,7 @@
+input {
+	all: unset;
+	border-bottom: 2px solid rebeccapurple;
+	padding: 10px 20px;
+	font-size: 1.1em;
+	width: 60%;
+}

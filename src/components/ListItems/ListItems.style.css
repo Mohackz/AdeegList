@@ -1,0 +1,15 @@
+.app-list-items {
+	background-color: rebeccapurple;
+	color: white;
+	padding: 15px;
+	margin-top: 10px;
+	font-size: 1.3em;
+	cursor: default;
+}
+
+.app-list-items.completed {
+	background-color: #e1e1e1;
+	border: 1px solid rebeccapurple;
+	color: rebeccapurple;
+	text-decoration: line-through;
+}

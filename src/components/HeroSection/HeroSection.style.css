@@ -1,0 +1,17 @@
+#app-header {
+	padding: 0 10%;
+}
+
+#app-header-title {
+	font-weight: bolder;
+	text-align: center;
+	color: rebeccapurple;
+	font-size: 2.4em;
+	letter-spacing: 2px;
+	margin: 40px 10px;
+}
+
+#app-header-fields {
+	display: flex;
+	justify-content: space-between;
+}
