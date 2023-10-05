@@ -1,8 +1,13 @@
+.wrapper-list-items{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
 .app-list-items {
 	background-color: rebeccapurple;
+	width: 80%;
 	color: white;
 	padding: 15px;
-	margin-top: 10px;
 	font-size: 1.3em;
 	cursor: default;
 }
@@ -12,4 +17,30 @@
 	border: 1px solid rebeccapurple;
 	color: rebeccapurple;
 	text-decoration: line-through;
+}
+
+.myButton {
+	background-color:#f24537;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:0px 24px;
+	text-decoration:none;
+}
+
+.infoButton{
+	background-color: cyan;
+}
+.infoButton:hover{
+	background-color: cadetblue !important;
+}
+.myButton:hover {
+	background-color:#c62d1f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

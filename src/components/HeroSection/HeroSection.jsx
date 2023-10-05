@@ -7,7 +7,7 @@ const HeroSection = (props) => {
 	const { onInputChange, onButtonClick, inputTextValue } = props;
 	return (
 		<header id="app-header">
-			<h1 id="app-header-title">Adeeg List</h1>
+			<h1 id="app-header-title">Todo Liste</h1>
 			<div id="app-header-fields">
 				<InputText onChange={onInputChange} value={inputTextValue} />
 				<Button onClick={onButtonClick} />
