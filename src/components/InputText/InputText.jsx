@@ -7,7 +7,7 @@ const InputText = (props) => {
 		<input
 			type="text"
 			className="input"
-			placeholder="Ex: 2kg tomato"
+			placeholder="Ex: Apprendre ReactJS"
 			onChange={onChange}
 			value={value}
 		/>

@@ -12,8 +12,14 @@ const ListItems = ({ item, onClick,onEditClick, onDeleteClick, itemIndex }) => {
 			>
 				{item.task}
 			</li>
-			<button className="myButton infoButton" onClick={() => onEditClick(itemIndex)}><FontAwesomeIcon icon={faEdit} color="whitesmoke" /></button> 
-			<button className="myButton" onClick={() => onDeleteClick(itemIndex)}><FontAwesomeIcon icon={faTrash} color="whitesmoke" /></button> 
+			<button 
+				className="myButton infoButton" 
+				onClick={() => onEditClick(itemIndex)}><FontAwesomeIcon 
+				icon={faEdit} color="whitesmoke" /></button> 
+			<button 
+				className="myButton" 
+				onClick={() => onDeleteClick(itemIndex)}><FontAwesomeIcon 
+				icon={faTrash} color="whitesmoke" /></button> 
 		</div>
 
 	);
